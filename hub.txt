@@ -1,4 +1,4 @@
-Hub CS_Hub
+hub CS_Hub
 shortLabel Fairbrother Lab Track Hub
 longLabel Contains Exon Usage Data
 genomesFile https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/genomes.txt

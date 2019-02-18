@@ -19,12 +19,14 @@ itemRgb on
 track test1
 bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/low_var_5p.bw
 shortLabel 5' Exon Splice Site Usage
+longLabel Usage
 type bigWig 0 1
 color 255,0,0
 
 track test2
 bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/low_var_3p.bw
 shortLabel 3' Exon Splice Site Usage
+longLabel Usage
 type bigWig 0 1
 color 0,255,0
 

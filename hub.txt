@@ -1,0 +1,5 @@
+Hub CS_Hub
+shortLabel Fairbrother Lab Track Hub
+longLabel Contains Exon Usage Data
+genomesFile genomes.txt
+email william_fairbrother@brown.edu

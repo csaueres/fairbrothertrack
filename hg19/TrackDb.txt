@@ -31,7 +31,7 @@ maxHeightPixels 300:100:10
 		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/low_var_5p.bw
 		shortLabel 5' Exon Splice Site Usage
 		longLabel Usage of 5' Splice Sites w/ variance <0.01 across cell lines
-		parent BW_exon_usage
+		parent low_var_exon_usage
 		type bigWig
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/5_exon_usage_lowVar
 		color 0,0,255
@@ -40,7 +40,7 @@ maxHeightPixels 300:100:10
 		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/low_var_3p.bw
 		shortLabel 3' Exon Splice Site Usage
 		longLabel Usage of 3' Splice Sites w/ variance <0.01 across cell lines
-		parent BW_exon_usage
+		parent low_var_exon_usage
 		type bigWig
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/3_exon_usage_lowVar
 		color 0,255,0

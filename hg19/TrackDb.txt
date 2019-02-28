@@ -16,29 +16,16 @@ html hhttps://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/3_
 visibility pack
 itemRgb on
 
-track test1
-bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/low_var_5p.bw
-shortLabel 5' Exon Splice Site Usage
-longLabel Usage
-type bigWig 0 1
-color 255,0,0
 
-track test2
-bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/low_var_3p.bw
-shortLabel 3' Exon Splice Site Usage
-longLabel Usage
-type bigWig 0 1
-color 0,255,0
-
-track BW_exon_usage
+track low_var_exon_usage
 container multiWig
-shortLabel MultiWig 3p + 5p exon usage
-longLabel This multiWig overlay track graphs points from two bigWig files.
+shortLabel Low Variance
+longLabel Exon Usage with low variance across cell lines
 visibility pack
 type bigWig 0 1
 aggregate transparentOverlay
 showSubtrackColorOnUi on
-maxHeightPixels 500:100:10
+maxHeightPixels 300:100:10
 	
 		track wig_usage_5p
 		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/low_var_5p.bw
@@ -47,7 +34,7 @@ maxHeightPixels 500:100:10
 		parent BW_exon_usage
 		type bigWig
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/5_exon_usage_lowVar
-		color 255,0,0
+		color 0,0,255
 
 		track wig_usage_3p
 		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/low_var_3p.bw

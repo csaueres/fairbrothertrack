@@ -3,7 +3,7 @@ bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg
 shortLabel 5' Exon Splice Site Usage
 longLabel Relative Usage of 5' Splice Sites with Variance <0.01 across Cell Lines
 type bigBed 9 .
-html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/5_exon_usage_lowVar.html
+html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/5_exon_usage_lowVar
 visibility pack
 itemRgb on
 

@@ -21,7 +21,7 @@ track low_var_exon_usage
 container multiWig
 shortLabel Low Variance
 longLabel Exon Usage with low variance across cell lines
-visibility pack
+visibility full
 type bigWig 0 1
 aggregate transparentOverlay
 showSubtrackColorOnUi on
@@ -50,7 +50,7 @@ track A549
 container multiWig
 shortLabel A549
 longLabel Exon Usage in A549 cell line
-visibility pack
+visibility hide
 type bigWig 0 1
 aggregate transparentOverlay
 showSubtrackColorOnUi on
@@ -79,7 +79,7 @@ track AG04450
 container multiWig
 shortLabel AG04450
 longLabel Exon Usage in AG04450cell line
-visibility pack
+visibility hide
 type bigWig 0 1
 aggregate transparentOverlay
 showSubtrackColorOnUi on
@@ -107,7 +107,7 @@ track BJ
 container multiWig
 shortLabel BJ
 longLabel Exon Usage in BJ cell line
-visibility pack
+visibility hide
 type bigWig 0 1
 aggregate transparentOverlay
 showSubtrackColorOnUi on

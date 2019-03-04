@@ -298,6 +298,7 @@ maxHeightPixels 300:100:10
 		type bigWig
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/3_exon_usage_any_cell_line
 		color 0,255,0
+		
 track HUVEC
 container multiWig
 shortLabel HUVEC

@@ -354,3 +354,227 @@ maxHeightPixels 300:100:10
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/3_exon_usage_any_cell_line
 		color 0,255,0
 
+track K562
+container multiWig
+shortLabel K562
+longLabel Exon Usage in K562 cell line
+visibility hide
+type bigWig 0 1
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 300:100:10
+	
+		track K562_5p_track
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/K562_5p_track.bw
+		shortLabel 5' Exon Splice Site Usage
+		longLabel Usage of 5' Splice Sites in ENCODE K562 cell line
+		parent K562
+		type bigWig
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/5_exon_usage_any_cell_line
+		color 0,0,255
+
+		track K562_3p_track
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/K562_3p_track.bw
+		shortLabel 3' Exon Splice Site Usage
+		longLabel Usage of 3' Splice Sites in ENCODE K562 cell line
+		parent K562
+		type bigWig
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/3_exon_usage_any_cell_line
+		color 0,255,0
+
+track MCF-7
+container multiWig
+shortLabel MCF-7
+longLabel Exon Usage in MCF-7 cell line
+visibility hide
+type bigWig 0 1
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 300:100:10
+	
+		track MCF-7_5p_track
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/MCF-7_5p_track.bw
+		shortLabel 5' Exon Splice Site Usage
+		longLabel Usage of 5' Splice Sites in ENCODE MCF-7 cell line
+		parent MCF-7
+		type bigWig
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/5_exon_usage_any_cell_line
+		color 0,0,255
+
+		track MCF-7_3p_track
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/MCF-7_3p_track.bw
+		shortLabel 3' Exon Splice Site Usage
+		longLabel Usage of 3' Splice Sites in ENCODE MCF-7 cell line
+		parent MCF-7
+		type bigWig
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/3_exon_usage_any_cell_line
+		color 0,255,0
+
+track NHEK
+container multiWig
+shortLabel NHEK
+longLabel Exon Usage in NHEK cell line
+visibility hide
+type bigWig 0 1
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 300:100:10
+	
+		track NHEK_5p_track
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/NHEK_5p_track.bw
+		shortLabel 5' Exon Splice Site Usage
+		longLabel Usage of 5' Splice Sites in ENCODE NHEK cell line
+		parent NHEK
+		type bigWig
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/5_exon_usage_any_cell_line
+		color 0,0,255
+
+		track NHEK_3p_track
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/NHEK_3p_track.bw
+		shortLabel 3' Exon Splice Site Usage
+		longLabel Usage of 3' Splice Sites in ENCODE NHEK cell line
+		parent NHEK
+		type bigWig
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/3_exon_usage_any_cell_line
+		color 0,255,0
+
+track NHLF
+container multiWig
+shortLabel NHLF
+longLabel Exon Usage in NHLF cell line
+visibility hide
+type bigWig 0 1
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 300:100:10
+	
+		track NHLF_5p_track
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/NHLF_5p_track.bw
+		shortLabel 5' Exon Splice Site Usage
+		longLabel Usage of 5' Splice Sites in ENCODE NHLF cell line
+		parent NHLF
+		type bigWig
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/5_exon_usage_any_cell_line
+		color 0,0,255
+
+		track NHLF_3p_track
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/NHLF_3p_track.bw
+		shortLabel 3' Exon Splice Site Usage
+		longLabel Usage of 3' Splice Sites in ENCODE NHLF cell line
+		parent NHLF
+		type bigWig
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/3_exon_usage_any_cell_line
+		color 0,255,0
+
+track SK-N-SH
+container multiWig
+shortLabel SK-N-SH
+longLabel Exon Usage in SK-N-SH cell line
+visibility hide
+type bigWig 0 1
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 300:100:10
+	
+		track SK-N-SH_5p_track
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/SK-N-SH_5p_track.bw
+		shortLabel 5' Exon Splice Site Usage
+		longLabel Usage of 5' Splice Sites in ENCODE SK-N-SH cell line
+		parent SK-N-SH
+		type bigWig
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/5_exon_usage_any_cell_line
+		color 0,0,255
+
+		track SK-N-SH_3p_track
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/SK-N-SH_3p_track.bw
+		shortLabel 3' Exon Splice Site Usage
+		longLabel Usage of 3' Splice Sites in ENCODE SK-N-SH cell line
+		parent SK-N-SH
+		type bigWig
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/3_exon_usage_any_cell_line
+		color 0,255,0
+
+track SK-N-SH-RA
+container multiWig
+shortLabel SK-N-SH-RA
+longLabel Exon Usage in SK-N-SH-RA cell line
+visibility hide
+type bigWig 0 1
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 300:100:10
+	
+		track SK-N-SH-RA_5p_track
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/SK-N-SH-RA_5p_track.bw
+		shortLabel 5' Exon Splice Site Usage
+		longLabel Usage of 5' Splice Sites in ENCODE SK-N-SH-RA cell line
+		parent SK-N-SH-RA
+		type bigWig
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/5_exon_usage_any_cell_line
+		color 0,0,255
+
+		track SK-N-SH-RA_3p_track
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/SK-N-SH-RA_3p_track.bw
+		shortLabel 3' Exon Splice Site Usage
+		longLabel Usage of 3' Splice Sites in ENCODE SK-N-SH-RA cell line
+		parent SK-N-SH-RA
+		type bigWig
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/3_exon_usage_any_cell_line
+		color 0,255,0
+
+
+track CD14
+container multiWig
+shortLabel CD14
+longLabel Exon Usage in CD14 cell line
+visibility hide
+type bigWig 0 1
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 300:100:10
+	
+		track CD14_5p_track
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/CD14_5p_track.bw
+		shortLabel 5' Exon Splice Site Usage
+		longLabel Usage of 5' Splice Sites in ENCODE CD14 cell line
+		parent CD14
+		type bigWig
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/5_exon_usage_any_cell_line
+		color 0,0,255
+
+		track CD14_3p_track
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/CD14_3p_track.bw
+		shortLabel 3' Exon Splice Site Usage
+		longLabel Usage of 3' Splice Sites in ENCODE CD14 cell line
+		parent CD14
+		type bigWig
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/3_exon_usage_any_cell_line
+		color 0,255,0
+
+track CD20
+container multiWig
+shortLabel CD20
+longLabel Exon Usage in CD20 cell line
+visibility hide
+type bigWig 0 1
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 300:100:10
+	
+		track CD20_5p_track
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/CD20_5p_track.bw
+		shortLabel 5' Exon Splice Site Usage
+		longLabel Usage of 5' Splice Sites in ENCODE CD20 cell line
+		parent CD20
+		type bigWig
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/5_exon_usage_any_cell_line
+		color 0,0,255
+
+		track CD20_3p_track
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/CD20_3p_track.bw
+		shortLabel 3' Exon Splice Site Usage
+		longLabel Usage of 3' Splice Sites in ENCODE CD20 cell line
+		parent CD20
+		type bigWig
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/3_exon_usage_any_cell_line
+		color 0,255,0

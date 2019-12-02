@@ -1,20 +1,30 @@
-track exon_usage_5p
-bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/low_var_5p_usage.bb
-shortLabel 5' Exon Splice Site Usage
-longLabel Relative Usage of 5' Splice Sites with Variance <0.01 across Cell Lines
-type bigBed 9 .
-html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/5_exon_usage_lowVar
-visibility pack
-itemRgb on
 
-track exon_usage_3p
-bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/low_var_3p_usage.bb
-shortLabel 3' Exon Splice Site Usage
-longLabel Relative Usage of 3' Splice Sites with Variance <0.01 across Cell Lines
+track lowVarComp
 type bigBed 9 .
-html hhttps://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/3_exon_usage_lowVar
-visibility pack
-itemRgb on
+compositeTrack on
+shortLabel Ex. compositeTrack on
+longLabel This composite track groups related bam subtracks together.
+visibility full
+priority 2
+html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/5_exon_usage_lowVar
+
+	track exon_usage_5p
+	bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/low_var_5p_usage.bb
+	shortLabel 5' Exon Splice Site Usage
+	longLabel Relative Usage of 5' Splice Sites with Variance <0.01 across Cell Lines
+	type bigBed 9 .
+	html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/5_exon_usage_lowVar
+	parent lowVarComp on
+	itemRgb on
+
+	track exon_usage_3p
+	bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/low_var_3p_usage.bb
+	shortLabel 3' Exon Splice Site Usage
+	longLabel Relative Usage of 3' Splice Sites with Variance <0.01 across Cell Lines
+	type bigBed 9 .
+	html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/3_exon_usage_lowVar
+	parent lowVarComp on
+	itemRgb on
 
 
 track low_var_exon_usage

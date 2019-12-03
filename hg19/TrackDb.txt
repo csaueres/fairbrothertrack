@@ -7,8 +7,10 @@ type bigBed 9 +1
 html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/5_exon_usage_lowVar
 visibility pack
 itemRgb on
+bedNameLabel Usage Value
 spectrum on
-minGrayLevel 4
+scoreMin 200
+scoreMax 800
 
 track low_var_exon_usage
 container multiWig

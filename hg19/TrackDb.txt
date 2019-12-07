@@ -1,6 +1,6 @@
 
 track low_var_exon_usage_bb
-bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/low_var.bb
+bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/low_var_track.bb
 shortLabel  Exon Splice Site Usage
 longLabel Relative Usage of 5' and 3' Splice Sites with Variance <0.01 across Cell Lines
 type bigBed 9 +1

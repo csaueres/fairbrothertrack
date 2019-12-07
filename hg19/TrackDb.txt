@@ -1,6 +1,6 @@
 
 track low_var_exon_usage_bb
-bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/low_var_track.bb
+bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/low_var_track.bb
 shortLabel  Exon Splice Site Usage
 longLabel Relative Usage of 5' and 3' Splice Sites with Variance <0.01 across Cell Lines
 type bigBed 9 +1
@@ -13,7 +13,7 @@ track low_var_exon_usage
 container multiWig
 shortLabel Low Variance
 longLabel Exon Usage with low variance across cell lines
-visibility full
+visibility hide
 type bigWig 0 1
 aggregate transparentOverlay
 showSubtrackColorOnUi on
@@ -39,28 +39,28 @@ maxHeightPixels 300:100:10
 
 
 track A549
-bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/A549_track.bb
+bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/A549_track.bb
 shortLabel  Exon Splice Site Usage for A549 cell line
 longLabel Relative Usage of 5' and 3' Splice Sites in A549 cell line
 type bigBed 9 +1
 html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-visibility pack
+visibility hide
 itemRgb on
 bedNameLabel Usage Value
 
 
 track AG04450
-bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/AG04450_track.bb
+bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/AG04450_track.bb
 shortLabel  Exon Splice Site Usage for AG04450 cell line
 longLabel Relative Usage of 5' and 3' Splice Sites in AG04450 cell line
 type bigBed 9 +1
 html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-visibility pack
+visibility hide
 itemRgb on
 bedNameLabel Usage Value
 
 track BJ
-bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/BJ_track.bb
+bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/BJ_track.bb
 shortLabel  Exon Splice Site Usage for BJ cell line
 longLabel Relative Usage of 5' and 3' Splice Sites in BJ cell line
 type bigBed 9 +1

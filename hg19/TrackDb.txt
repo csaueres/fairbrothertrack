@@ -26,7 +26,7 @@ maxHeightPixels 300:100:10
 		parent low_var_exon_usage
 		type bigWig
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_lowVar
-		color 0,0,255
+		color 48,171,54
 
 		track wig_usage_3p
 		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/low_var_3p.bw
@@ -35,7 +35,7 @@ maxHeightPixels 300:100:10
 		parent low_var_exon_usage
 		type bigWig
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_lowVar
-		color 0,255,0
+		color 35,68,176
 
 track A549
 bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/A549_track.bb
@@ -46,7 +46,6 @@ html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/htm
 visibility hide
 itemRgb on
 bedNameLabel Usage Value
-
 
 track AG04450
 bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/AG04450_track.bb

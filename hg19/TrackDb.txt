@@ -1,7 +1,7 @@
 
 track low_var_exon_usage_bb
 bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/low_var_track.bb
-shortLabel  Exon Splice Site Usage
+shortLabel  Low Variance BigBed
 longLabel Relative Usage of 5' and 3' Splice Sites with Variance <0.01 across Cell Lines
 type bigBed 9 +1
 html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/descrip_lowVar
@@ -11,7 +11,7 @@ bedNameLabel Usage Value
 
 track low_var_exon_usage
 container multiWig
-shortLabel Low Variance
+shortLabel Low Variance BigWig
 longLabel Exon Usage with low variance across cell lines
 visibility hide
 type bigWig 0 1
@@ -37,11 +37,10 @@ maxHeightPixels 300:100:10
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_lowVar
 		color 0,255,0
 
-
 track A549
 bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/A549_track.bb
-shortLabel  Exon Splice Site Usage for A549 cell line
-longLabel Relative Usage of 5' and 3' Splice Sites in A549 cell line
+shortLabel  A549
+longLabel Usage Data for 5' and 3' Splice Sites in A549 cell line
 type bigBed 9 +1
 html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 visibility hide
@@ -51,8 +50,8 @@ bedNameLabel Usage Value
 
 track AG04450
 bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/AG04450_track.bb
-shortLabel  Exon Splice Site Usage for AG04450 cell line
-longLabel Relative Usage of 5' and 3' Splice Sites in AG04450 cell line
+shortLabel AG04450
+longLabel Usage Data for 5' and 3' Splice Sites in AG04450 cell line
 type bigBed 9 +1
 html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 visibility hide
@@ -61,459 +60,181 @@ bedNameLabel Usage Value
 
 track BJ
 bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/BJ_track.bb
-shortLabel  Exon Splice Site Usage for BJ cell line
-longLabel Relative Usage of 5' and 3' Splice Sites in BJ cell line
+shortLabel BJ
+longLabel Usage Data for 5' and 3' Splice Sites in BJ cell line
 type bigBed 9 +1
 html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-visibility pack
+visibility hide
+itemRgb on
+bedNameLabel Usage Value
+
+track CD14
+bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/CD14_track.bb
+shortLabel CD14
+longLabel Usage Data for 5' and 3' Splice Sites in CD14 cell line
+type bigBed 9 +1
+html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
+visibility hide
+itemRgb on
+bedNameLabel Usage Value
+
+track CD20
+bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/CD20_track.bb
+shortLabel CD20
+longLabel Usage Data for 5' and 3' Splice Sites in CD20 cell line
+type bigBed 9 +1
+html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
+visibility hide
 itemRgb on
 bedNameLabel Usage Value
 
 track GM12878
-container multiWig
+bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/GM12878_track.bb
 shortLabel GM12878
-longLabel Exon Usage in GM12878 cell line
+longLabel Usage Data for 5' and 3' Splice Sites in GM12878 cell line
+type bigBed 9 +1
+html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 visibility hide
-type bigWig 0 1
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-maxHeightPixels 300:100:10
-	
-		track GM12878_5p_track
-		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/GM12878_5p_track.bw
-		shortLabel 5' Exon Splice Site Usage
-		longLabel Usage of 5' Splice Sites in ENCODE GM12878 cell line
-		parent GM12878
-		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/5_exon_usage_any_cell_line
-		color 0,0,255
-
-		track GM12878_3p_track
-		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/GM12878_3p_track.bw
-		shortLabel 3' Exon Splice Site Usage
-		longLabel Usage of 3' Splice Sites in ENCODE GM12878 cell line
-		parent GM12878
-		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/3_exon_usage_any_cell_line
-		color 0,255,0
+itemRgb on
+bedNameLabel Usage Value
 
 track H1-hESC
-container multiWig
+bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/H1-hESC_track.bb
 shortLabel H1-hESC
-longLabel Exon Usage in H1-hESC cell line
+longLabel Usage Data for 5' and 3' Splice Sites in H1-hESC cell line
+type bigBed 9 +1
+html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 visibility hide
-type bigWig 0 1
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-maxHeightPixels 300:100:10
-	
-		track H1-hESC_5p_track
-		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/H1-hESC_5p_track.bw
-		shortLabel 5' Exon Splice Site Usage
-		longLabel Usage of 5' Splice Sites in ENCODE H1-hESC cell line
-		parent H1-hESC
-		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/5_exon_usage_any_cell_line
-		color 0,0,255
-
-		track H1-hESC_3p_track
-		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/H1-hESC_3p_track.bw
-		shortLabel 3' Exon Splice Site Usage
-		longLabel Usage of 3' Splice Sites in ENCODE H1-hESC cell line
-		parent H1-hESC
-		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/3_exon_usage_any_cell_line
-		color 0,255,0
+itemRgb on
+bedNameLabel Usage Value
 
 track HeLa-S3
-container multiWig
+bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/HeLa-S3_track.bb
 shortLabel HeLa-S3
-longLabel Exon Usage in HeLa-S3 cell line
+longLabel Usage Data for 5' and 3' Splice Sites in HeLa-S3 cell line
+type bigBed 9 +1
+html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 visibility hide
-type bigWig 0 1
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-maxHeightPixels 300:100:10
-	
-		track HeLa-S3_5p_track
-		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/HeLa-S3_5p_track.bw
-		shortLabel 5' Exon Splice Site Usage
-		longLabel Usage of 5' Splice Sites in ENCODE HeLa-S3 cell line
-		parent HeLa-S3
-		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/5_exon_usage_any_cell_line
-		color 0,0,255
-
-		track HeLa-S3_3p_track
-		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/HeLa-S3_3p_track.bw
-		shortLabel 3' Exon Splice Site Usage
-		longLabel Usage of 3' Splice Sites in ENCODE HeLa-S3 cell line
-		parent HeLa-S3
-		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/3_exon_usage_any_cell_line
-		color 0,255,0
+itemRgb on
+bedNameLabel Usage Value
 
 track HepG2
-container multiWig
+bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/HepG2_track.bb
 shortLabel HepG2
-longLabel Exon Usage in HepG2 cell line
+longLabel Usage Data for 5' and 3' Splice Sites in HepG2 cell line
+type bigBed 9 +1
+html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 visibility hide
-type bigWig 0 1
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-maxHeightPixels 300:100:10
-	
-		track HepG2_5p_track
-		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/HepG2_5p_track.bw
-		shortLabel 5' Exon Splice Site Usage
-		longLabel Usage of 5' Splice Sites in ENCODE HepG2 cell line
-		parent HepG2
-		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/5_exon_usage_any_cell_line
-		color 0,0,255
-
-		track HepG2_3p_track
-		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/HepG2_3p_track.bw
-		shortLabel 3' Exon Splice Site Usage
-		longLabel Usage of 3' Splice Sites in ENCODE HepG2 cell line
-		parent HepG2
-		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/3_exon_usage_any_cell_line
-		color 0,255,0
+itemRgb on
+bedNameLabel Usage Value
 
 track HMEC
-container multiWig
+bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/HMEC_track.bb
 shortLabel HMEC
-longLabel Exon Usage in HMEC cell line
+longLabel Usage Data for 5' and 3' Splice Sites in HMEC cell line
+type bigBed 9 +1
+html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 visibility hide
-type bigWig 0 1
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-maxHeightPixels 300:100:10
-	
-		track HMEC_5p_track
-		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/HMEC_5p_track.bw
-		shortLabel 5' Exon Splice Site Usage
-		longLabel Usage of 5' Splice Sites in ENCODE HMEC cell line
-		parent HMEC
-		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/5_exon_usage_any_cell_line
-		color 0,0,255
-
-		track HMEC_3p_track
-		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/HMEC_3p_track.bw
-		shortLabel 3' Exon Splice Site Usage
-		longLabel Usage of 3' Splice Sites in ENCODE HMEC cell line
-		parent HMEC
-		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/3_exon_usage_any_cell_line
-		color 0,255,0
+itemRgb on
+bedNameLabel Usage Value
 
 track HSMM
-container multiWig
+bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/HSMM_track.bb
 shortLabel HSMM
-longLabel Exon Usage in HSMM cell line
+longLabel Usage Data for 5' and 3' Splice Sites in HSMM cell line
+type bigBed 9 +1
+html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 visibility hide
-type bigWig 0 1
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-maxHeightPixels 300:100:10
-	
-		track HSMM_5p_track
-		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/HSMM_5p_track.bw
-		shortLabel 5' Exon Splice Site Usage
-		longLabel Usage of 5' Splice Sites in ENCODE HSMM cell line
-		parent HSMM
-		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/5_exon_usage_any_cell_line
-		color 0,0,255
+itemRgb on
+bedNameLabel Usage Value
 
-		track HSMM_3p_track
-		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/HSMM_3p_track.bw
-		shortLabel 3' Exon Splice Site Usage
-		longLabel Usage of 3' Splice Sites in ENCODE HSMM cell line
-		parent HSMM
-		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/3_exon_usage_any_cell_line
-		color 0,255,0
-		
+track HepG2
+bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/HepG2_track.bb
+shortLabel HepG2
+longLabel Usage Data for 5' and 3' Splice Sites in HepG2 cell line
+type bigBed 9 +1
+html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
+visibility hide
+itemRgb on
+bedNameLabel Usage Value
+
 track HUVEC
-container multiWig
+bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/HUVEC_track.bb
 shortLabel HUVEC
-longLabel Exon Usage in HUVEC cell line
+longLabel Usage Data for 5' and 3' Splice Sites in HUVEC cell line
+type bigBed 9 +1
+html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 visibility hide
-type bigWig 0 1
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-maxHeightPixels 300:100:10
-	
-		track HUVEC_5p_track
-		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/HUVEC_5p_track.bw
-		shortLabel 5' Exon Splice Site Usage
-		longLabel Usage of 5' Splice Sites in ENCODE HUVEC cell line
-		parent HUVEC
-		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/5_exon_usage_any_cell_line
-		color 0,0,255
-
-		track HUVEC_3p_track
-		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/HUVEC_3p_track.bw
-		shortLabel 3' Exon Splice Site Usage
-		longLabel Usage of 3' Splice Sites in ENCODE HUVEC cell line
-		parent HUVEC
-		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/3_exon_usage_any_cell_line
-		color 0,255,0
+itemRgb on
+bedNameLabel Usage Value
 
 track IMR90
-container multiWig
+bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/IMR90_track.bb
 shortLabel IMR90
-longLabel Exon Usage in IMR90 cell line
+longLabel Usage Data for 5' and 3' Splice Sites in IMR90 cell line
+type bigBed 9 +1
+html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 visibility hide
-type bigWig 0 1
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-maxHeightPixels 300:100:10
-	
-		track IMR90_5p_track
-		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/IMR90_5p_track.bw
-		shortLabel 5' Exon Splice Site Usage
-		longLabel Usage of 5' Splice Sites in ENCODE IMR90 cell line
-		parent IMR90
-		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/5_exon_usage_any_cell_line
-		color 0,0,255
-
-		track IMR90_3p_track
-		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/IMR90_3p_track.bw
-		shortLabel 3' Exon Splice Site Usage
-		longLabel Usage of 3' Splice Sites in ENCODE IMR90 cell line
-		parent IMR90
-		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/3_exon_usage_any_cell_line
-		color 0,255,0
+itemRgb on
+bedNameLabel Usage Value
 
 track K562
-container multiWig
+bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/K562_track.bb
 shortLabel K562
-longLabel Exon Usage in K562 cell line
+longLabel Usage Data for 5' and 3' Splice Sites in K562 cell line
+type bigBed 9 +1
+html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 visibility hide
-type bigWig 0 1
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-maxHeightPixels 300:100:10
-	
-		track K562_5p_track
-		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/K562_5p_track.bw
-		shortLabel 5' Exon Splice Site Usage
-		longLabel Usage of 5' Splice Sites in ENCODE K562 cell line
-		parent K562
-		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/5_exon_usage_any_cell_line
-		color 0,0,255
-
-		track K562_3p_track
-		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/K562_3p_track.bw
-		shortLabel 3' Exon Splice Site Usage
-		longLabel Usage of 3' Splice Sites in ENCODE K562 cell line
-		parent K562
-		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/3_exon_usage_any_cell_line
-		color 0,255,0
+itemRgb on
+bedNameLabel Usage Value
 
 track MCF-7
-container multiWig
+bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/MCF-7_track.bb
 shortLabel MCF-7
-longLabel Exon Usage in MCF-7 cell line
+longLabel Usage Data for 5' and 3' Splice Sites in MCF-7 cell line
+type bigBed 9 +1
+html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 visibility hide
-type bigWig 0 1
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-maxHeightPixels 300:100:10
-	
-		track MCF-7_5p_track
-		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/MCF-7_5p_track.bw
-		shortLabel 5' Exon Splice Site Usage
-		longLabel Usage of 5' Splice Sites in ENCODE MCF-7 cell line
-		parent MCF-7
-		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/5_exon_usage_any_cell_line
-		color 0,0,255
-
-		track MCF-7_3p_track
-		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/MCF-7_3p_track.bw
-		shortLabel 3' Exon Splice Site Usage
-		longLabel Usage of 3' Splice Sites in ENCODE MCF-7 cell line
-		parent MCF-7
-		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/3_exon_usage_any_cell_line
-		color 0,255,0
+itemRgb on
+bedNameLabel Usage Value
 
 track NHEK
-container multiWig
+bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/NHEK_track.bb
 shortLabel NHEK
-longLabel Exon Usage in NHEK cell line
+longLabel Usage Data for 5' and 3' Splice Sites in NHEK cell line
+type bigBed 9 +1
+html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 visibility hide
-type bigWig 0 1
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-maxHeightPixels 300:100:10
-	
-		track NHEK_5p_track
-		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/NHEK_5p_track.bw
-		shortLabel 5' Exon Splice Site Usage
-		longLabel Usage of 5' Splice Sites in ENCODE NHEK cell line
-		parent NHEK
-		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/5_exon_usage_any_cell_line
-		color 0,0,255
-
-		track NHEK_3p_track
-		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/NHEK_3p_track.bw
-		shortLabel 3' Exon Splice Site Usage
-		longLabel Usage of 3' Splice Sites in ENCODE NHEK cell line
-		parent NHEK
-		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/3_exon_usage_any_cell_line
-		color 0,255,0
+itemRgb on
+bedNameLabel Usage Value
 
 track NHLF
-container multiWig
+bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/NHLF_track.bb
 shortLabel NHLF
-longLabel Exon Usage in NHLF cell line
+longLabel Usage Data for 5' and 3' Splice Sites in NHLF cell line
+type bigBed 9 +1
+html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 visibility hide
-type bigWig 0 1
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-maxHeightPixels 300:100:10
-	
-		track NHLF_5p_track
-		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/NHLF_5p_track.bw
-		shortLabel 5' Exon Splice Site Usage
-		longLabel Usage of 5' Splice Sites in ENCODE NHLF cell line
-		parent NHLF
-		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/5_exon_usage_any_cell_line
-		color 0,0,255
-
-		track NHLF_3p_track
-		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/NHLF_3p_track.bw
-		shortLabel 3' Exon Splice Site Usage
-		longLabel Usage of 3' Splice Sites in ENCODE NHLF cell line
-		parent NHLF
-		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/3_exon_usage_any_cell_line
-		color 0,255,0
+itemRgb on
+bedNameLabel Usage Value
 
 track SK-N-SH
-container multiWig
+bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/SK-N-SH_track.bb
 shortLabel SK-N-SH
-longLabel Exon Usage in SK-N-SH cell line
+longLabel Usage Data for 5' and 3' Splice Sites in SK-N-SH cell line
+type bigBed 9 +1
+html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 visibility hide
-type bigWig 0 1
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-maxHeightPixels 300:100:10
-	
-		track SK-N-SH_5p_track
-		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/SK-N-SH_5p_track.bw
-		shortLabel 5' Exon Splice Site Usage
-		longLabel Usage of 5' Splice Sites in ENCODE SK-N-SH cell line
-		parent SK-N-SH
-		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/5_exon_usage_any_cell_line
-		color 0,0,255
-
-		track SK-N-SH_3p_track
-		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/SK-N-SH_3p_track.bw
-		shortLabel 3' Exon Splice Site Usage
-		longLabel Usage of 3' Splice Sites in ENCODE SK-N-SH cell line
-		parent SK-N-SH
-		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/3_exon_usage_any_cell_line
-		color 0,255,0
+itemRgb on
+bedNameLabel Usage Value
 
 track SK-N-SH-RA
-container multiWig
+bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/SK-N-SH-RA_track.bb
 shortLabel SK-N-SH-RA
-longLabel Exon Usage in SK-N-SH-RA cell line
+longLabel Usage Data for 5' and 3' Splice Sites in SK-N-SH-RA cell line
+type bigBed 9 +1
+html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 visibility hide
-type bigWig 0 1
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-maxHeightPixels 300:100:10
-	
-		track SK-N-SH-RA_5p_track
-		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/SK-N-SH-RA_5p_track.bw
-		shortLabel 5' Exon Splice Site Usage
-		longLabel Usage of 5' Splice Sites in ENCODE SK-N-SH-RA cell line
-		parent SK-N-SH-RA
-		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/5_exon_usage_any_cell_line
-		color 0,0,255
+itemRgb on
+bedNameLabel Usage Value
 
-		track SK-N-SH-RA_3p_track
-		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/SK-N-SH-RA_3p_track.bw
-		shortLabel 3' Exon Splice Site Usage
-		longLabel Usage of 3' Splice Sites in ENCODE SK-N-SH-RA cell line
-		parent SK-N-SH-RA
-		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/3_exon_usage_any_cell_line
-		color 0,255,0
-
-
-track CD14
-container multiWig
-shortLabel CD14
-longLabel Exon Usage in CD14 cell line
-visibility hide
-type bigWig 0 1
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-maxHeightPixels 300:100:10
-	
-		track CD14_5p_track
-		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/CD14_5p_track.bw
-		shortLabel 5' Exon Splice Site Usage
-		longLabel Usage of 5' Splice Sites in ENCODE CD14 cell line
-		parent CD14
-		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/5_exon_usage_any_cell_line
-		color 0,0,255
-
-		track CD14_3p_track
-		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/CD14_3p_track.bw
-		shortLabel 3' Exon Splice Site Usage
-		longLabel Usage of 3' Splice Sites in ENCODE CD14 cell line
-		parent CD14
-		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/3_exon_usage_any_cell_line
-		color 0,255,0
-
-track CD20
-container multiWig
-shortLabel CD20
-longLabel Exon Usage in CD20 cell line
-visibility hide
-type bigWig 0 1
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-maxHeightPixels 300:100:10
-	
-		track CD20_5p_track
-		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/CD20_5p_track.bw
-		shortLabel 5' Exon Splice Site Usage
-		longLabel Usage of 5' Splice Sites in ENCODE CD20 cell line
-		parent CD20
-		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/5_exon_usage_any_cell_line
-		color 0,0,255
-
-		track CD20_3p_track
-		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/CD20_3p_track.bw
-		shortLabel 3' Exon Splice Site Usage
-		longLabel Usage of 3' Splice Sites in ENCODE CD20 cell line
-		parent CD20
-		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/3_exon_usage_any_cell_line
-		color 0,255,0

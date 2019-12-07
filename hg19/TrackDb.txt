@@ -148,16 +148,6 @@ visibility hide
 itemRgb on
 bedNameLabel Usage Value
 
-track HepG2
-bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/HepG2_track.bb
-shortLabel HepG2
-longLabel Usage Data for 5' and 3' Splice Sites in HepG2 cell line
-type bigBed 9 +1
-html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-visibility hide
-itemRgb on
-bedNameLabel Usage Value
-
 track HUVEC
 bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/HUVEC_track.bb
 shortLabel HUVEC

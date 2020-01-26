@@ -123,7 +123,7 @@ shortLabel HepG2
 longLabel Usage Data for 5' and 3' Splice Sites in HepG2 cell line
 type bigBed 9 +1
 html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-visibility hide
+visibility pack
 itemRgb on
 bedNameLabel Usage Value
 
@@ -173,7 +173,7 @@ shortLabel K562
 longLabel Usage Data for 5' and 3' Splice Sites in K562 cell line
 type bigBed 9 +1
 html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-visibility hide
+visibility pack
 itemRgb on
 bedNameLabel Usage Value
 

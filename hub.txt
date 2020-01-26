@@ -1,5 +1,5 @@
 hub CS_Hub
-shortLabel Fairbrother Lab Exon Usage
-longLabel Exon Usage Data Across 19 ENCODE cell lines
+shortLabel Exon Usage Hub
+longLabel Splice Site Usage Values Calculated for 19 ENCODE Cell Lines
 genomesFile https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/genomes.txt
 email william_fairbrother@brown.edu

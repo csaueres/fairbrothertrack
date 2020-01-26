@@ -3,3 +3,4 @@ shortLabel Exon Usage Hub
 longLabel Splice Site Usage Values Calculated for 19 ENCODE Cell Lines
 genomesFile https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/genomes.txt
 email william_fairbrother@brown.edu
+descriptionUrl https://vivo.brown.edu/display/wfairbro#Research

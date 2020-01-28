@@ -40,7 +40,7 @@ maxHeightPixels 300:100:10
 track CellLinesComposite
 compositeTrack on
 shortLabel Individual Cell Lines
-longLabel Individual usage data of each cell line
+longLabel Composite track for individual usage data of each cell line
 type bigBed 9 +1
 allButtonPair on
 
@@ -48,8 +48,9 @@ allButtonPair on
 		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/A549_track.bb
 		shortLabel  A549
 		longLabel Usage Data for 5' and 3' Splice Sites in A549 cell line
+		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-		parent CellLinesComposite
+		parent CellLinesComposite off
 		itemRgb on
 		bedNameLabel Usage Value
 
@@ -57,6 +58,7 @@ allButtonPair on
 		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/AG04450_track.bb
 		shortLabel AG04450
 		longLabel Usage Data for 5' and 3' Splice Sites in AG04450 cell line
+		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 		parent CellLinesComposite
 		itemRgb on
@@ -66,6 +68,7 @@ allButtonPair on
 		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/BJ_track.bb
 		shortLabel BJ
 		longLabel Usage Data for 5' and 3' Splice Sites in BJ cell line
+		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 		parent CellLinesComposite
 		itemRgb on
@@ -75,6 +78,7 @@ allButtonPair on
 		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/CD14_track.bb
 		shortLabel CD14
 		longLabel Usage Data for 5' and 3' Splice Sites in CD14 cell line
+		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 		parent CellLinesComposite
 		itemRgb on
@@ -84,6 +88,7 @@ allButtonPair on
 		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/CD20_track.bb
 		shortLabel CD20
 		longLabel Usage Data for 5' and 3' Splice Sites in CD20 cell line
+		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 		parent CellLinesComposite
 		itemRgb on
@@ -93,6 +98,7 @@ allButtonPair on
 		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/GM12878_track.bb
 		shortLabel GM12878
 		longLabel Usage Data for 5' and 3' Splice Sites in GM12878 cell line
+		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 		parent CellLinesComposite
 		itemRgb on
@@ -102,6 +108,7 @@ allButtonPair on
 		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/H1-hESC_track.bb
 		shortLabel H1-hESC
 		longLabel Usage Data for 5' and 3' Splice Sites in H1-hESC cell line
+		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 		parent CellLinesComposite
 		itemRgb on
@@ -111,6 +118,7 @@ allButtonPair on
 		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/HeLa-S3_track.bb
 		shortLabel HeLa-S3
 		longLabel Usage Data for 5' and 3' Splice Sites in HeLa-S3 cell line
+		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 		parent CellLinesComposite
 		itemRgb on
@@ -120,6 +128,7 @@ allButtonPair on
 		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/HepG2_track.bb
 		shortLabel HepG2
 		longLabel Usage Data for 5' and 3' Splice Sites in HepG2 cell line
+		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 		parent CellLinesComposite on
 		visibility pack
@@ -130,6 +139,7 @@ allButtonPair on
 		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/HMEC_track.bb
 		shortLabel HMEC
 		longLabel Usage Data for 5' and 3' Splice Sites in HMEC cell line
+		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 		parent CellLinesComposite
 		itemRgb on
@@ -139,6 +149,7 @@ allButtonPair on
 		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/HSMM_track.bb
 		shortLabel HSMM
 		longLabel Usage Data for 5' and 3' Splice Sites in HSMM cell line
+		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 		parent CellLinesComposite
 		itemRgb on
@@ -148,6 +159,7 @@ allButtonPair on
 		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/HUVEC_track.bb
 		shortLabel HUVEC
 		longLabel Usage Data for 5' and 3' Splice Sites in HUVEC cell line
+		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 		parent CellLinesComposite
 		itemRgb on
@@ -157,6 +169,7 @@ allButtonPair on
 		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/IMR90_track.bb
 		shortLabel IMR90
 		longLabel Usage Data for 5' and 3' Splice Sites in IMR90 cell line
+		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 		parent CellLinesComposite
 		itemRgb on
@@ -166,8 +179,10 @@ allButtonPair on
 		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/K562_track.bb
 		shortLabel K562
 		longLabel Usage Data for 5' and 3' Splice Sites in K562 cell line
+		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 		parent CellLinesComposite on
+		visibility pack
 		itemRgb on
 		bedNameLabel Usage Value
 
@@ -175,6 +190,7 @@ allButtonPair on
 		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/MCF-7_track.bb
 		shortLabel MCF-7
 		longLabel Usage Data for 5' and 3' Splice Sites in MCF-7 cell line
+		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 		parent CellLinesComposite
 		itemRgb on
@@ -184,6 +200,7 @@ allButtonPair on
 		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/NHEK_track.bb
 		shortLabel NHEK
 		longLabel Usage Data for 5' and 3' Splice Sites in NHEK cell line
+		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 		parent CellLinesComposite
 		itemRgb on
@@ -193,6 +210,7 @@ allButtonPair on
 		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/NHLF_track.bb
 		shortLabel NHLF
 		longLabel Usage Data for 5' and 3' Splice Sites in NHLF cell line
+		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 		parent CellLinesComposite
 		itemRgb on
@@ -202,6 +220,7 @@ allButtonPair on
 		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/SK-N-SH_track.bb
 		shortLabel SK-N-SH
 		longLabel Usage Data for 5' and 3' Splice Sites in SK-N-SH cell line
+		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 		parent CellLinesComposite
 		itemRgb on
@@ -211,6 +230,7 @@ allButtonPair on
 		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/SK-N-SH-RA_track.bb
 		shortLabel SK-N-SH-RA
 		longLabel Usage Data for 5' and 3' Splice Sites in SK-N-SH-RA cell line
+		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 		parent CellLinesComposite
 		itemRgb on

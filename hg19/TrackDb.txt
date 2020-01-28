@@ -4,7 +4,7 @@ bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg
 shortLabel  Low Variance BigBed
 longLabel Relative Usage of 5' and 3' Splice Sites with Variance <0.01 across Cell Lines
 type bigBed 9 +1
-html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/descrip_lowVar
+html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_lowVar
 visibility pack
 itemRgb on
 bedNameLabel Usage Value
@@ -25,7 +25,7 @@ maxHeightPixels 300:100:10
 		longLabel Usage of 5' Splice Sites w/ variance <0.01 across cell lines
 		parent low_var_exon_usage
 		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_lowVar
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_lowVarBW
 		color 48,171,54
 
 		track wig_usage_3p
@@ -34,7 +34,7 @@ maxHeightPixels 300:100:10
 		longLabel Usage of 3' Splice Sites w/ variance <0.01 across cell lines
 		parent low_var_exon_usage
 		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_lowVar
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_lowVar_BW
 		color 35,68,176
 
 track CellLinesComposite

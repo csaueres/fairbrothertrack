@@ -37,193 +37,202 @@ maxHeightPixels 300:100:10
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_lowVar
 		color 35,68,176
 
-track A549
-bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/A549_track.bb
-shortLabel  A549
-longLabel Usage Data for 5' and 3' Splice Sites in A549 cell line
+track CellLinesComposite
+compositeTrack on
+shortLabel Individual Cell Lines
+longLabel Composite track for individual usage data of each cell line
 type bigBed 9 +1
-html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-visibility hide
-itemRgb on
-bedNameLabel Usage Value
+allButtonPair on
 
-track AG04450
-bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/AG04450_track.bb
-shortLabel AG04450
-longLabel Usage Data for 5' and 3' Splice Sites in AG04450 cell line
-type bigBed 9 +1
-html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-visibility hide
-itemRgb on
-bedNameLabel Usage Value
+		track A549
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/A549_track.bb
+		shortLabel  A549
+		longLabel Usage Data for 5' and 3' Splice Sites in A549 cell line
+		type bigBed 9 +1
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
+		parent CellLinesComposite
+		itemRgb on
+		bedNameLabel Usage Value
 
-track BJ
-bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/BJ_track.bb
-shortLabel BJ
-longLabel Usage Data for 5' and 3' Splice Sites in BJ cell line
-type bigBed 9 +1
-html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-visibility hide
-itemRgb on
-bedNameLabel Usage Value
+		track AG04450
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/AG04450_track.bb
+		shortLabel AG04450
+		longLabel Usage Data for 5' and 3' Splice Sites in AG04450 cell line
+		type bigBed 9 +1
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
+		parent CellLinesComposite
+		itemRgb on
+		bedNameLabel Usage Value
 
-track CD14
-bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/CD14_track.bb
-shortLabel CD14
-longLabel Usage Data for 5' and 3' Splice Sites in CD14 cell line
-type bigBed 9 +1
-html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-visibility hide
-itemRgb on
-bedNameLabel Usage Value
+		track BJ
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/BJ_track.bb
+		shortLabel BJ
+		longLabel Usage Data for 5' and 3' Splice Sites in BJ cell line
+		type bigBed 9 +1
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
+		parent CellLinesComposite
+		itemRgb on
+		bedNameLabel Usage Value
 
-track CD20
-bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/CD20_track.bb
-shortLabel CD20
-longLabel Usage Data for 5' and 3' Splice Sites in CD20 cell line
-type bigBed 9 +1
-html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-visibility hide
-itemRgb on
-bedNameLabel Usage Value
+		track CD14
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/CD14_track.bb
+		shortLabel CD14
+		longLabel Usage Data for 5' and 3' Splice Sites in CD14 cell line
+		type bigBed 9 +1
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
+		parent CellLinesComposite
+		itemRgb on
+		bedNameLabel Usage Value
 
-track GM12878
-bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/GM12878_track.bb
-shortLabel GM12878
-longLabel Usage Data for 5' and 3' Splice Sites in GM12878 cell line
-type bigBed 9 +1
-html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-visibility hide
-itemRgb on
-bedNameLabel Usage Value
+		track CD20
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/CD20_track.bb
+		shortLabel CD20
+		longLabel Usage Data for 5' and 3' Splice Sites in CD20 cell line
+		type bigBed 9 +1
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
+		parent CellLinesComposite
+		itemRgb on
+		bedNameLabel Usage Value
 
-track H1-hESC
-bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/H1-hESC_track.bb
-shortLabel H1-hESC
-longLabel Usage Data for 5' and 3' Splice Sites in H1-hESC cell line
-type bigBed 9 +1
-html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-visibility hide
-itemRgb on
-bedNameLabel Usage Value
+		track GM12878
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/GM12878_track.bb
+		shortLabel GM12878
+		longLabel Usage Data for 5' and 3' Splice Sites in GM12878 cell line
+		type bigBed 9 +1
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
+		parent CellLinesComposite
+		itemRgb on
+		bedNameLabel Usage Value
 
-track HeLa-S3
-bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/HeLa-S3_track.bb
-shortLabel HeLa-S3
-longLabel Usage Data for 5' and 3' Splice Sites in HeLa-S3 cell line
-type bigBed 9 +1
-html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-visibility hide
-itemRgb on
-bedNameLabel Usage Value
+		track H1-hESC
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/H1-hESC_track.bb
+		shortLabel H1-hESC
+		longLabel Usage Data for 5' and 3' Splice Sites in H1-hESC cell line
+		type bigBed 9 +1
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
+		parent CellLinesComposite
+		itemRgb on
+		bedNameLabel Usage Value
 
-track HepG2
-bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/HepG2_track.bb
-shortLabel HepG2
-longLabel Usage Data for 5' and 3' Splice Sites in HepG2 cell line
-type bigBed 9 +1
-html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-visibility pack
-itemRgb on
-bedNameLabel Usage Value
+		track HeLa-S3
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/HeLa-S3_track.bb
+		shortLabel HeLa-S3
+		longLabel Usage Data for 5' and 3' Splice Sites in HeLa-S3 cell line
+		type bigBed 9 +1
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
+		parent CellLinesComposite
+		itemRgb on
+		bedNameLabel Usage Value
 
-track HMEC
-bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/HMEC_track.bb
-shortLabel HMEC
-longLabel Usage Data for 5' and 3' Splice Sites in HMEC cell line
-type bigBed 9 +1
-html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-visibility hide
-itemRgb on
-bedNameLabel Usage Value
+		track HepG2
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/HepG2_track.bb
+		shortLabel HepG2
+		longLabel Usage Data for 5' and 3' Splice Sites in HepG2 cell line
+		type bigBed 9 +1
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
+		parent CellLinesComposite on
+		visibility pack
+		itemRgb on
+		bedNameLabel Usage Value
 
-track HSMM
-bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/HSMM_track.bb
-shortLabel HSMM
-longLabel Usage Data for 5' and 3' Splice Sites in HSMM cell line
-type bigBed 9 +1
-html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-visibility hide
-itemRgb on
-bedNameLabel Usage Value
+		track HMEC
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/HMEC_track.bb
+		shortLabel HMEC
+		longLabel Usage Data for 5' and 3' Splice Sites in HMEC cell line
+		type bigBed 9 +1
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
+		parent CellLinesComposite
+		itemRgb on
+		bedNameLabel Usage Value
 
-track HUVEC
-bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/HUVEC_track.bb
-shortLabel HUVEC
-longLabel Usage Data for 5' and 3' Splice Sites in HUVEC cell line
-type bigBed 9 +1
-html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-visibility hide
-itemRgb on
-bedNameLabel Usage Value
+		track HSMM
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/HSMM_track.bb
+		shortLabel HSMM
+		longLabel Usage Data for 5' and 3' Splice Sites in HSMM cell line
+		type bigBed 9 +1
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
+		parent CellLinesComposite
+		itemRgb on
+		bedNameLabel Usage Value
 
-track IMR90
-bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/IMR90_track.bb
-shortLabel IMR90
-longLabel Usage Data for 5' and 3' Splice Sites in IMR90 cell line
-type bigBed 9 +1
-html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-visibility hide
-itemRgb on
-bedNameLabel Usage Value
+		track HUVEC
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/HUVEC_track.bb
+		shortLabel HUVEC
+		longLabel Usage Data for 5' and 3' Splice Sites in HUVEC cell line
+		type bigBed 9 +1
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
+		parent CellLinesComposite
+		itemRgb on
+		bedNameLabel Usage Value
 
-track K562
-bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/K562_track.bb
-shortLabel K562
-longLabel Usage Data for 5' and 3' Splice Sites in K562 cell line
-type bigBed 9 +1
-html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-visibility pack
-itemRgb on
-bedNameLabel Usage Value
+		track IMR90
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/IMR90_track.bb
+		shortLabel IMR90
+		longLabel Usage Data for 5' and 3' Splice Sites in IMR90 cell line
+		type bigBed 9 +1
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
+		parent CellLinesComposite
+		itemRgb on
+		bedNameLabel Usage Value
 
-track MCF-7
-bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/MCF-7_track.bb
-shortLabel MCF-7
-longLabel Usage Data for 5' and 3' Splice Sites in MCF-7 cell line
-type bigBed 9 +1
-html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-visibility hide
-itemRgb on
-bedNameLabel Usage Value
+		track K562
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/K562_track.bb
+		shortLabel K562
+		longLabel Usage Data for 5' and 3' Splice Sites in K562 cell line
+		type bigBed 9 +1
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
+		parent CellLinesComposite on
+		visibility pack
+		itemRgb on
+		bedNameLabel Usage Value
 
-track NHEK
-bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/NHEK_track.bb
-shortLabel NHEK
-longLabel Usage Data for 5' and 3' Splice Sites in NHEK cell line
-type bigBed 9 +1
-html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-visibility hide
-itemRgb on
-bedNameLabel Usage Value
+		track MCF-7
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/MCF-7_track.bb
+		shortLabel MCF-7
+		longLabel Usage Data for 5' and 3' Splice Sites in MCF-7 cell line
+		type bigBed 9 +1
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
+		parent CellLinesComposite
+		itemRgb on
+		bedNameLabel Usage Value
 
-track NHLF
-bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/NHLF_track.bb
-shortLabel NHLF
-longLabel Usage Data for 5' and 3' Splice Sites in NHLF cell line
-type bigBed 9 +1
-html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-visibility hide
-itemRgb on
-bedNameLabel Usage Value
+		track NHEK
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/NHEK_track.bb
+		shortLabel NHEK
+		longLabel Usage Data for 5' and 3' Splice Sites in NHEK cell line
+		type bigBed 9 +1
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
+		parent CellLinesComposite
+		itemRgb on
+		bedNameLabel Usage Value
 
-track SK-N-SH
-bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/SK-N-SH_track.bb
-shortLabel SK-N-SH
-longLabel Usage Data for 5' and 3' Splice Sites in SK-N-SH cell line
-type bigBed 9 +1
-html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-visibility hide
-itemRgb on
-bedNameLabel Usage Value
+		track NHLF
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/NHLF_track.bb
+		shortLabel NHLF
+		longLabel Usage Data for 5' and 3' Splice Sites in NHLF cell line
+		type bigBed 9 +1
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
+		parent CellLinesComposite
+		itemRgb on
+		bedNameLabel Usage Value
 
-track SK-N-SH-RA
-bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/SK-N-SH-RA_track.bb
-shortLabel SK-N-SH-RA
-longLabel Usage Data for 5' and 3' Splice Sites in SK-N-SH-RA cell line
-type bigBed 9 +1
-html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-visibility hide
-itemRgb on
-bedNameLabel Usage Value
+		track SK-N-SH
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/SK-N-SH_track.bb
+		shortLabel SK-N-SH
+		longLabel Usage Data for 5' and 3' Splice Sites in SK-N-SH cell line
+		type bigBed 9 +1
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
+		parent CellLinesComposite
+		itemRgb on
+		bedNameLabel Usage Value
+
+		track SK-N-SH-RA
+		bigDataUrl https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/bigBedTracks/SK-N-SH-RA_track.bb
+		shortLabel SK-N-SH-RA
+		longLabel Usage Data for 5' and 3' Splice Sites in SK-N-SH-RA cell line
+		type bigBed 9 +1
+		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
+		parent CellLinesComposite
+		itemRgb on
+		bedNameLabel Usage Value
 

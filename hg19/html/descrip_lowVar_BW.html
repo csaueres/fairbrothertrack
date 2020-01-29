@@ -12,7 +12,7 @@ and (C) for a 5’ (3’) splice site, a read with a junction that has its 5’ 
 In order to mitigate the corruption of this metric by the false positive splice junctions frequently output by RNA-seq aligners, we only considered junction reads that contained splice sites present in the GENCODEv29 annotation.
 If there were multiple RNA-seq replicates for a particular cell line or condition, we collapsed the junction read counts from all replicates before calculating splice site usages.
 <P>
-In other words, splice site usage measures how often a particular splice site is "used" during splicing relative to other splice sites in the same gene, with values ranging from 0 (never used) to 1(every transcript seen in the RNA-seq data uses this splice site).
+In other words, splice site usage measures how often a particular splice site is "used" during splicing relative to other splice sites in the same gene, with values ranging from 0 (never used) to 1 (every transcript seen in the RNA-seq data uses this splice site).
 Scripts used to generate usage data can be found <a href="https://github.com/dtglidden/hotspot-exon-paper">here</a>
 
 

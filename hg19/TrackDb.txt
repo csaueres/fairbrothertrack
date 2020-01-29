@@ -15,6 +15,7 @@ shortLabel Low Variance BigWig
 longLabel Exon Usage with low variance across cell lines
 visibility hide
 type bigWig 0 1
+html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_lowVar_BW
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 300:100:10
@@ -25,7 +26,6 @@ maxHeightPixels 300:100:10
 		longLabel Usage of 5' Splice Sites w/ variance <0.01 across cell lines
 		parent low_var_exon_usage
 		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_lowVarBW
 		color 48,171,54
 
 		track wig_usage_3p
@@ -34,7 +34,6 @@ maxHeightPixels 300:100:10
 		longLabel Usage of 3' Splice Sites w/ variance <0.01 across cell lines
 		parent low_var_exon_usage
 		type bigWig
-		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_lowVar_BW
 		color 35,68,176
 
 track CellLinesComposite

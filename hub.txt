@@ -1,6 +1,6 @@
 hub CS_Hub
-shortLabel Exon Usage Hub
-longLabel Splice Site Usage Values Calculated for 19 ENCODE Cell Lines
+shortLabel Splice Site Usage Hub
+longLabel Splice Site Usage Values Calculated for 19 ENCODE Cell Lines from RNA-seq
 genomesFile https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/genomes.txt
 email william_fairbrother@brown.edu
 descriptionUrl https://vivo.brown.edu/display/wfairbro#Research

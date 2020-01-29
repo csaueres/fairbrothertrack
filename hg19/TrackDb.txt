@@ -43,6 +43,7 @@ compositeTrack on
 shortLabel Individual Cell Lines
 longLabel Composite track for individual usage data of each cell line
 type bigBed 9 +1
+visibility pack
 allButtonPair on
 
 		track A549
@@ -61,7 +62,7 @@ allButtonPair on
 		longLabel Usage Data for 5' and 3' Splice Sites in AG04450 cell line
 		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-		parent CellLinesComposite
+		parent CellLinesComposite off
 		itemRgb on
 		bedNameLabel Usage Value
 
@@ -71,7 +72,7 @@ allButtonPair on
 		longLabel Usage Data for 5' and 3' Splice Sites in BJ cell line
 		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-		parent CellLinesComposite
+		parent CellLinesComposite off
 		itemRgb on
 		bedNameLabel Usage Value
 
@@ -81,7 +82,7 @@ allButtonPair on
 		longLabel Usage Data for 5' and 3' Splice Sites in CD14 cell line
 		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-		parent CellLinesComposite
+		parent CellLinesComposite off
 		itemRgb on
 		bedNameLabel Usage Value
 
@@ -91,7 +92,7 @@ allButtonPair on
 		longLabel Usage Data for 5' and 3' Splice Sites in CD20 cell line
 		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-		parent CellLinesComposite
+		parent CellLinesComposite off
 		itemRgb on
 		bedNameLabel Usage Value
 
@@ -101,7 +102,7 @@ allButtonPair on
 		longLabel Usage Data for 5' and 3' Splice Sites in GM12878 cell line
 		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-		parent CellLinesComposite
+		parent CellLinesComposite off
 		itemRgb on
 		bedNameLabel Usage Value
 
@@ -111,7 +112,7 @@ allButtonPair on
 		longLabel Usage Data for 5' and 3' Splice Sites in H1-hESC cell line
 		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-		parent CellLinesComposite
+		parent CellLinesComposite off
 		itemRgb on
 		bedNameLabel Usage Value
 
@@ -121,7 +122,7 @@ allButtonPair on
 		longLabel Usage Data for 5' and 3' Splice Sites in HeLa-S3 cell line
 		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-		parent CellLinesComposite
+		parent CellLinesComposite off
 		itemRgb on
 		bedNameLabel Usage Value
 
@@ -131,7 +132,7 @@ allButtonPair on
 		longLabel Usage Data for 5' and 3' Splice Sites in HepG2 cell line
 		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-		parent CellLinesComposite on
+		parent CellLinesComposite
 		visibility pack
 		itemRgb on
 		bedNameLabel Usage Value
@@ -142,7 +143,7 @@ allButtonPair on
 		longLabel Usage Data for 5' and 3' Splice Sites in HMEC cell line
 		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-		parent CellLinesComposite
+		parent CellLinesComposite off
 		itemRgb on
 		bedNameLabel Usage Value
 
@@ -152,7 +153,7 @@ allButtonPair on
 		longLabel Usage Data for 5' and 3' Splice Sites in HSMM cell line
 		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-		parent CellLinesComposite
+		parent CellLinesComposite off
 		itemRgb on
 		bedNameLabel Usage Value
 
@@ -162,7 +163,7 @@ allButtonPair on
 		longLabel Usage Data for 5' and 3' Splice Sites in HUVEC cell line
 		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-		parent CellLinesComposite
+		parent CellLinesComposite off
 		itemRgb on
 		bedNameLabel Usage Value
 
@@ -172,7 +173,7 @@ allButtonPair on
 		longLabel Usage Data for 5' and 3' Splice Sites in IMR90 cell line
 		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-		parent CellLinesComposite
+		parent CellLinesComposite off
 		itemRgb on
 		bedNameLabel Usage Value
 
@@ -182,7 +183,7 @@ allButtonPair on
 		longLabel Usage Data for 5' and 3' Splice Sites in K562 cell line
 		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-		parent CellLinesComposite on
+		parent CellLinesComposite
 		visibility pack
 		itemRgb on
 		bedNameLabel Usage Value
@@ -193,7 +194,7 @@ allButtonPair on
 		longLabel Usage Data for 5' and 3' Splice Sites in MCF-7 cell line
 		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-		parent CellLinesComposite
+		parent CellLinesComposite off
 		itemRgb on
 		bedNameLabel Usage Value
 
@@ -203,7 +204,7 @@ allButtonPair on
 		longLabel Usage Data for 5' and 3' Splice Sites in NHEK cell line
 		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-		parent CellLinesComposite
+		parent CellLinesComposite off
 		itemRgb on
 		bedNameLabel Usage Value
 
@@ -213,7 +214,7 @@ allButtonPair on
 		longLabel Usage Data for 5' and 3' Splice Sites in NHLF cell line
 		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-		parent CellLinesComposite
+		parent CellLinesComposite off
 		itemRgb on
 		bedNameLabel Usage Value
 
@@ -223,7 +224,7 @@ allButtonPair on
 		longLabel Usage Data for 5' and 3' Splice Sites in SK-N-SH cell line
 		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-		parent CellLinesComposite
+		parent CellLinesComposite off
 		itemRgb on
 		bedNameLabel Usage Value
 
@@ -233,7 +234,7 @@ allButtonPair on
 		longLabel Usage Data for 5' and 3' Splice Sites in SK-N-SH-RA cell line
 		type bigBed 9 +1
 		html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
-		parent CellLinesComposite
+		parent CellLinesComposite off
 		itemRgb on
 		bedNameLabel Usage Value
 

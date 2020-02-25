@@ -43,6 +43,7 @@ compositeTrack on
 shortLabel Individual Cell Lines
 longLabel Composite track for individual usage data of each cell line
 type bigBed 9 +1
+html https://raw.githubusercontent.com/csaueres/fairbrothertrack/master/hg19/html/descrip_any_cell_line
 visibility pack
 allButtonPair on
 
